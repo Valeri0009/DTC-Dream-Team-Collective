@@ -1,57 +1,81 @@
-body{
-    background-color:rgb(41, 48, 54);
+/*The background color of the whole page*/
+body {
+    background-color: rgb(41, 48, 54);
 }
-.navbar ul{
-    background-color: rgb(1, 101, 184);
-    list-style-type: none;
-    margin: 0px;
+
+/*The style of the navigation bar*/
+.navbar {
+    display: flex;
+    background-color: rgb(0, 83, 161);
+    align-items: center;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
     padding: 0px;
-    overflow: hidden;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
-    text-align: center;
-    border-radius: 40px;
-    }
-.navbar a{
-        color:rgb(255, 255, 255);
-        text-decoration: none;
-        padding:15px;
-        text-align: center;
-        display: block;
-    }    
-.navbar a:hover{
-        background-color: rgb(76, 160, 190);
-    }
-.navbar li{
-        display: inline-block;
- 
-    }
-#Header{
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/*The style of the data inside the navigation bar*/
+.navbar a {
+    text-decoration: none;
+    color: rgb(175, 223, 255);
+    padding: 25px 10px;
+    display: block;
+
+}
+
+/*The color when you hover over the navigation bar*/
+.navbar a:hover {
+    background-color: #3ca5c0;
+    color: rgb(175, 223, 255);
+    border-radius: 20px;
+}
+
+.navbar .logo {
+    margin-right: auto;
+    margin-left: 70px;
+}
+
+.navbar .logo img {
+    height: 85px;
+}
+
+.navbar .menu-item {
+    margin-right: 5%;
+}
+
+#Header {
     color: rgb(255, 255, 255);
-    font-size: 35px;
+    font-size: 30px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: auto;
-    width: 25%;
-    padding: 50px;
+    width: 40%;
+    padding: 70px;
     text-align: center;
 }
-#Paragraph{
+
+#Paragraph {
     color: rgb(255, 255, 255);
-    font-size: 25px;
+    font-size: 23px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: auto;
-    width: 35%;;;
-    text-align:center
+    width: 35%;
+    ;
+    ;
+    text-align: center
 }
-#Paragraph1{
-        color: rgb(255, 255, 255);
-        font-size: 25px;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        margin: auto;
-        width: 35%;
-        text-align:center
+
+#Paragraph1 {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: auto;
+    width: 35%;
+    text-align: center
 }
-#subheading{
+
+#subheading {
     color: rgb(255, 255, 255);
     font-size: 28px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -60,7 +84,8 @@ body{
     padding: 0px;
     text-align: center;
 }
-#Team{
+
+#Team {
     color: rgb(255, 255, 255);
     font-size: 35px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -69,23 +94,54 @@ body{
     padding: 50px;
     text-align: center;
 }
-.center {
-    display: block;
-    margin-left: 73.9%
-  }
+
+#Paragraph2 {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: auto;
+    margin-right: 19%;
+    width: 15%;
+    text-align: center;
+    position: absolute;
+    float: right;
+    top: 775px;
+    right: 300px;
+    overflow: hidden;
+}
+
+#geometry_photo {
+    margin-left: 35%;
+    margin-top: 6%;
+}
+.first-person {
+    margin-left: 80%;
+    margin-top: 10%
+    
+}
+
 .left {
     display: block;
-    margin-left: 0%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
 }
+
 .right {
     display: block;
-    margin-left: 73.9%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
 }
+
 .down {
     display: block;
-    margin-left: 0%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
 }
+
 .Identity {
     text-align: left;
     text-decoration-color: white;
-  }
+}
