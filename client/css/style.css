@@ -60,9 +60,32 @@ body{
     padding: 0px;
     text-align: center;
 }
-.img_geometry{
+#Team{
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: auto;
+    width: 25%;
+    padding: 50px;
+    text-align: center;
+}
+.center {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+    margin-left: 73.9%
+  }
+.left {
+    display: block;
+    margin-left: 0%;
+}
+.right {
+    display: block;
+    margin-left: 73.9%;
+}
+.down {
+    display: block;
+    margin-left: 0%;
+}
+.Identity {
+    text-align: left;
+    text-decoration-color: white;
   }
